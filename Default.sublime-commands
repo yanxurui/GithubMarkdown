@@ -1,0 +1,6 @@
+[
+    {
+        "caption": "Github Markdown: render a markdown document by github",
+        "command": "github_markdown"
+    }
+]
