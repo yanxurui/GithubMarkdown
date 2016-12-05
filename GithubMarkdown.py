@@ -23,7 +23,7 @@ class GithubMarkdownCommand(sublime_plugin.TextCommand):
         url = "https://api.github.com/markdown"
         data = {
             "text": file_text,
-            "mode": "markdown"
+            "mode": "gfm"
         }
         data = json.dumps(data).encode('utf-8')
         headers = {
