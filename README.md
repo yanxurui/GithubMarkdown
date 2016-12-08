@@ -22,10 +22,15 @@ By setting the [OAuth token](https://github.com/settings/tokens), you can make u
 `ctrl+alt+g`
 
 ## todo
-- [ ] linux ssl problem
-- [ ] flavored mode
-- [ ] block problem
-- [ ] tasks list not supported
+- [ ] not tested on linux(especially ssl problem)
+- [x] main thread blocked
+- [ ] animation on status bar while making request
+- [x] tasks list not supported
+- [x] context menu
+- [ ] default settings is modifiable
+
+### some knows issues
+* `urllib.error.URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>`
 
 ## license
 [MIT](https://opensource.org/licenses/MIT)
